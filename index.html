@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rajeev Kumar Mehta — Senior AI/ML Engineer</title>
+<title>Rajeev Kumar Mehta, Senior AI/ML Engineer</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -128,11 +128,9 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.92);backdrop
 .exp-row{display:grid;grid-template-columns:220px 1fr;gap:3rem;padding:3rem 0;border-bottom:1px solid var(--border)}
 .exp-row:first-child{padding-top:0}
 .exp-row:last-child{border-bottom:none;padding-bottom:0}
-.exp-meta{}
 .exp-period{font-family:var(--mono);font-size:11px;color:var(--teal);letter-spacing:0.05em;margin-bottom:4px}
 .exp-co{font-size:14px;font-weight:500;color:var(--ink);margin-bottom:2px}
 .exp-loc{font-family:var(--mono);font-size:10px;color:var(--ink4);letter-spacing:0.05em}
-.exp-detail{}
 .exp-role{font-family:var(--display);font-size:20px;font-weight:700;color:var(--ink);margin-bottom:0.75rem;line-height:1.2}
 .exp-desc{font-size:13px;color:var(--ink2);line-height:1.8;margin-bottom:1rem}
 .exp-chips{display:flex;flex-wrap:wrap;gap:5px}
@@ -207,7 +205,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <div class="hero-left">
       <div class="hero-eyebrow">Senior AI/ML Engineer · IIT Roorkee</div>
       <h1 class="hero-title">Rajeev<br>Kumar<br><span class="name-last">Mehta</span></h1>
-      <p class="hero-body">I build <strong>production-scale AI systems</strong> — multi-agent pipelines, RAG architectures, LLM integrations, and clinical data platforms. 4 years across healthcare AI & fintech.</p>
+      <p class="hero-body">I build <strong>production-scale AI systems</strong>, multi-agent pipelines, RAG architectures, LLM integrations, and clinical data platforms. 4 years across healthcare AI & fintech.</p>
       <div class="hero-actions">
         <a href="#projects" class="btn-fill">View my work</a>
         <a href="mailto:rajeevkmehta23@gmail.com" class="btn-outline">Get in touch</a>
@@ -238,12 +236,12 @@ footer a{color:var(--teal-mid);text-decoration:none}
           <div class="card-stat-lbl">Quality rating on RFP platform</div>
         </div>
         <div class="card-stat">
-          <div class="card-stat-val">40%<span></span></div>
-          <div class="card-stat-lbl">Conversion lift via RAG</div>
-        </div>
-        <div class="card-stat">
           <div class="card-stat-val">47.8<span></span></div>
           <div class="card-stat-lbl">BLEU vs 29 (Google NMT)</div>
+        </div>
+        <div class="card-stat">
+          <div class="card-stat-val">75.8%<span></span></div>
+          <div class="card-stat-lbl">Effective SQL rate (LLM eval)</div>
         </div>
         <div class="card-stat">
           <div class="card-stat-val">&lt;2s<span></span></div>
@@ -284,7 +282,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <span class="ticker-item"><span class="ticker-dot"></span> Pharma Intelligence</span>
     <span class="ticker-item"><span class="ticker-dot"></span> PyTorch · Transformers</span>
     <span class="ticker-item"><span class="ticker-dot"></span> OMOP CDM · Komodo Health</span>
-    <span class="ticker-item"><span class="ticker-dot"></span> BioBERT · ClinicalBERT</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> BioBERT · ClinicalBERT · BioGPT</span>
     <span class="ticker-item"><span class="ticker-dot"></span> LangGraph</span>
     <span class="ticker-item"><span class="ticker-dot"></span> FastAPI</span>
     <span class="ticker-item"><span class="ticker-dot"></span> Multi-Agent Systems</span>
@@ -296,7 +294,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <span class="ticker-item"><span class="ticker-dot"></span> Pharma Intelligence</span>
     <span class="ticker-item"><span class="ticker-dot"></span> PyTorch · Transformers</span>
     <span class="ticker-item"><span class="ticker-dot"></span> OMOP CDM · Komodo Health</span>
-    <span class="ticker-item"><span class="ticker-dot"></span> BioBERT · ClinicalBERT</span>
+    <span class="ticker-item"><span class="ticker-dot"></span> BioBERT · ClinicalBERT · BioGPT</span>
   </div>
 </div>
 
@@ -327,9 +325,9 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <div class="skill-cell">
       <div class="skill-num">03</div>
       <div class="skill-name">Async AI Backends</div>
-      <div class="skill-desc">High-throughput inference APIs and message queue workers serving 1M+ daily requests with sub-2s P99 latency using Redis caching.</div>
+      <div class="skill-desc">High-throughput inference APIs serving 1M+ daily requests with sub-2s P99 latency using async FastAPI, Redis caching, and optimised inference pipelines.</div>
       <div class="skill-pills">
-        <span class="pill">FastAPI</span><span class="pill">RabbitMQ</span><span class="pill">Redis</span><span class="pill">PostgreSQL</span><span class="pill">MongoDB</span>
+        <span class="pill">FastAPI</span><span class="pill">Redis</span><span class="pill">PostgreSQL</span><span class="pill">MongoDB</span><span class="pill">Docker</span>
       </div>
     </div>
     <div class="skill-cell">
@@ -337,7 +335,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
       <div class="skill-name">Biomedical NLP</div>
       <div class="skill-desc">Clinical NER, ontology-linked knowledge graphs, and NMT systems trained on 42M+ biomedical records. Outperforms Google Translate on domain benchmarks.</div>
       <div class="skill-pills">
-        <span class="pill">BioBERT</span><span class="pill">ClinicalBERT</span><span class="pill">SciBERT</span><span class="pill">Neo4j</span><span class="pill">NER</span>
+        <span class="pill">BioBERT</span><span class="pill">BioGPT</span><span class="pill">ClinicalBERT</span><span class="pill">SciBERT</span><span class="pill">Neo4j</span>
       </div>
     </div>
     <div class="skill-cell">
@@ -351,9 +349,9 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <div class="skill-cell">
       <div class="skill-num">06</div>
       <div class="skill-name">Clinical Data Engineering</div>
-      <div class="skill-desc">OMOP CDM pipelines, Komodo Health claims data (330M+ patients), ClinicalTrials.gov integration, multi-tenant Snowflake SQL at scale.</div>
+      <div class="skill-desc">OMOP CDM pipelines, Komodo Health claims data (330M+ patients), ClinicalTrials.gov integration, and document intelligence for drug regulatory data.</div>
       <div class="skill-pills">
-        <span class="pill">Snowflake</span><span class="pill">OMOP CDM</span><span class="pill">SQL</span><span class="pill">Komodo Health</span><span class="pill">Python</span>
+        <span class="pill">OMOP CDM</span><span class="pill">SQL</span><span class="pill">Komodo Health</span><span class="pill">Elasticsearch</span><span class="pill">Python</span>
       </div>
     </div>
   </div>
@@ -374,7 +372,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
         <div class="proj-body">
           <div class="proj-label">Multi-Agent · Freelance</div>
           <div class="proj-title">RFP Automation Platform</div>
-          <div class="proj-desc">LangGraph-based proposal generation system with 16 async nodes covering extraction, research, drafting, and PowerPoint export. Human-in-the-loop review gates with full auditability for enterprise procurement teams.</div>
+          <div class="proj-desc">LangGraph-based proposal generation system handling extraction, web research, content drafting, and PowerPoint export. Human-in-the-loop review gates with full auditability for enterprise procurement teams at Quiet Loud Technologies.</div>
           <div class="proj-metrics">
             <div class="pm"><div class="pm-val">95%+</div><div class="pm-lbl">Quality rating</div></div>
             <div class="pm"><div class="pm-val">16</div><div class="pm-lbl">Async agent nodes</div></div>
@@ -391,15 +389,14 @@ footer a{color:var(--teal-mid);text-decoration:none}
         <div class="proj-body">
           <div class="proj-label">Fintech AI · Scale</div>
           <div class="proj-title">PaisaSmart Investment Agent</div>
-          <div class="proj-desc">Custom agentic framework (beyond off-the-shelf tooling) for multi-turn memory, dynamic context management, and stateful orchestration serving 100K+ investors across KYC, portfolio, and SEBI-compliance workflows.</div>
+          <div class="proj-desc">WhatsApp-based AI investment agent for BSE-listed Elixir Capital. Custom agentic framework with multi-tool orchestration across mutual fund recommendations, KYC, transactions, and portfolio management, with multi-turn memory and stateful orchestration beyond LangChain's production capabilities.</div>
           <div class="proj-metrics">
             <div class="pm"><div class="pm-val">100K+</div><div class="pm-lbl">Investors served</div></div>
             <div class="pm"><div class="pm-val">1M+</div><div class="pm-lbl">Daily messages</div></div>
             <div class="pm"><div class="pm-val">&lt;2s</div><div class="pm-lbl">P99 latency</div></div>
-            <div class="pm"><div class="pm-val">40%</div><div class="pm-lbl">Conversion lift</div></div>
           </div>
           <div class="proj-stack">
-            <span class="stag">Custom Agents</span><span class="stag">BERT+Pinecone</span><span class="stag">Redis</span><span class="stag">FastAPI</span><span class="stag">Async</span>
+            <span class="stag">Custom Agents</span><span class="stag">BERT+Pinecone</span><span class="stag">Redis</span><span class="stag">FastAPI</span><span class="stag">SEBI Compliance</span>
           </div>
         </div>
         <div class="proj-arrow-col"><div class="proj-arrow">↗</div></div>
@@ -409,15 +406,15 @@ footer a{color:var(--teal-mid);text-decoration:none}
         <div class="proj-num-col"><div class="proj-num">03</div></div>
         <div class="proj-body">
           <div class="proj-label">Healthcare AI · Clinical</div>
-          <div class="proj-title">Clinical Trial Feasibility Platform</div>
-          <div class="proj-desc">LLM-powered 3-stage criteria-to-OMOP CDM SQL pipeline across 42K+ ClinicalTrials.gov studies on 330M+ patient records. Benchmarked 8 LLMs; selected Llama3:8b at 75.8% effective SQL rate — outperforming GPT-4 (45.3%). GPT-4 concept mapping at 48.5% vs USAGI's 32% (p&lt;0.001).</div>
+          <div class="proj-title">AlfaDev™, Clinical Trial Feasibility Platform</div>
+          <div class="proj-desc">Extended the LLM-based eligibility-to-OMOP CDM SQL pipeline (Park et al., JMIR Medical Informatics, 2024) to production scale on Komodo Health data (330M+ patients) for oncology trial feasibility. Benchmarked 8 LLMs; selected Llama 3 8B at 75.8% effective SQL rate, outperforming GPT-4 (45.3% hallucination). GPT-4 concept mapping at 48.5% vs USAGI's 32% (p&lt;0.001).</div>
           <div class="proj-metrics">
             <div class="pm"><div class="pm-val">330M+</div><div class="pm-lbl">Patients (Komodo)</div></div>
             <div class="pm"><div class="pm-val">75.8%</div><div class="pm-lbl">Effective SQL rate</div></div>
-            <div class="pm"><div class="pm-val">42K+</div><div class="pm-lbl">Studies indexed</div></div>
+            <div class="pm"><div class="pm-val">8</div><div class="pm-lbl">LLMs benchmarked</div></div>
           </div>
           <div class="proj-stack">
-            <span class="stag">Llama3:8b</span><span class="stag">OMOP CDM</span><span class="stag">Snowflake</span><span class="stag">Komodo Health</span>
+            <span class="stag">Llama 3 8B</span><span class="stag">OMOP CDM</span><span class="stag">Komodo Health</span><span class="stag">ClinicalTrials.gov</span>
           </div>
         </div>
         <div class="proj-arrow-col"><div class="proj-arrow">↗</div></div>
@@ -428,14 +425,14 @@ footer a{color:var(--teal-mid);text-decoration:none}
         <div class="proj-body">
           <div class="proj-label">Biomedical NLP · Research</div>
           <div class="proj-title">Multilingual Biomedical NMT System</div>
-          <div class="proj-desc">Ontology-driven NMT system (FR/DE/ES/IT/PT → EN) with entity-aware tagging and back-translation on 42M+ records. Paired with a self-learning knowledge graph linking 300K diseases, 2M chemicals, and 9M genes — BioBERT/SciBERT NER at F1 91%.</div>
+          <div class="proj-desc">Implemented Transformer Big MNMT (Bérard et al., 2020) from scratch for biomedical translation (FR/DE/ES/IT/PT → EN), extending to Portuguese and training on 42M+ records with SentencePiece BPE, entity-aware tagging, and back-translation augmentation. Paired with a self-supervised knowledge graph and 3-way hybrid NER system.</div>
           <div class="proj-metrics">
             <div class="pm"><div class="pm-val">47.8</div><div class="pm-lbl">BLEU (vs 29, Google)</div></div>
             <div class="pm"><div class="pm-val">94.3%</div><div class="pm-lbl">Entity preservation</div></div>
-            <div class="pm"><div class="pm-val">F1 91</div><div class="pm-lbl">NER score</div></div>
+            <div class="pm"><div class="pm-val">F1 91%</div><div class="pm-lbl">NER score</div></div>
           </div>
           <div class="proj-stack">
-            <span class="stag">BioBERT</span><span class="stag">SciBERT</span><span class="stag">SentencePiece</span><span class="stag">Neo4j</span><span class="stag">42M records</span>
+            <span class="stag">BioBERT</span><span class="stag">BioGPT</span><span class="stag">SciBERT</span><span class="stag">SentencePiece</span><span class="stag">Elasticsearch</span><span class="stag">Ontosight™</span>
           </div>
         </div>
         <div class="proj-arrow-col"><div class="proj-arrow">↗</div></div>
@@ -462,9 +459,9 @@ footer a{color:var(--teal-mid);text-decoration:none}
       </div>
       <div class="exp-detail">
         <div class="exp-role">Senior Data Scientist</div>
-        <div class="exp-desc">Clinical trial feasibility platform on Komodo Health claims (330M+ patients). LLM-powered SQL pipelines across 42K+ ClinicalTrials.gov studies. Pharma competitive intelligence pipeline for near-real-time drug pipeline monitoring. Led 3–4 engineers with code reviews and SCM practices.</div>
+        <div class="exp-desc">Built the AI intelligence layer for AlfaDev™ and AlfaKinetic™. AlfaDev surfaces patient eligibility, HCP, and trial intelligence for oncology feasibility on 330M+ Komodo Health patient records. AlfaKinetic is a multi-tenant pharma competitive intelligence platform monitoring 150+ global sources for real-time drug pipeline tracking. Led 3–4 engineers across both platforms.</div>
         <div class="exp-chips">
-          <span class="chip">Clinical AI</span><span class="chip">LLM Pipelines</span><span class="chip">Team Lead</span><span class="chip">Pharma CI</span>
+          <span class="chip">Clinical AI</span><span class="chip">LLM Pipelines</span><span class="chip">Pharma CI</span><span class="chip">Team Lead</span><span class="chip">OMOP CDM</span>
         </div>
       </div>
     </div>
@@ -476,10 +473,10 @@ footer a{color:var(--teal-mid);text-decoration:none}
         <div class="exp-loc">Dubai, UAE (Remote)</div>
       </div>
       <div class="exp-detail">
-        <div class="exp-role">Senior AI Engineer (Freelance)</div>
-        <div class="exp-desc">Built the RFP Automation Platform — 16-node LangGraph multi-agent system with human-in-the-loop review achieving 95%+ quality ratings from enterprise clients.</div>
+        <div class="exp-role">Senior AI Engineer (Contract)</div>
+        <div class="exp-desc">Built an end-to-end multi-agent RFP automation system for Quiet Loud's event management platform, handling proposal generation across extraction, web research, content drafting, and PPT export using LangGraph and FastAPI, with human-in-the-loop review gates.</div>
         <div class="exp-chips">
-          <span class="chip">LangGraph</span><span class="chip">Multi-Agent</span><span class="chip">Freelance</span>
+          <span class="chip">LangGraph</span><span class="chip">Multi-Agent</span><span class="chip">Contract</span>
         </div>
       </div>
     </div>
@@ -492,7 +489,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
       </div>
       <div class="exp-detail">
         <div class="exp-role">Senior AI Engineer (Founding Team)</div>
-        <div class="exp-desc">Built PaisaSmart from the ground up — custom agentic framework serving 100K+ investors at 1M+ daily messages with sub-2s P99 latency. 40% conversion lift via RAG. Led a team of 3 engineers, set up CI/CD and local dev environments.</div>
+        <div class="exp-desc">Built PaisaSmart from scratch, a WhatsApp-based AI investment agent for BSE-listed Elixir Capital serving 100K+ investors. Custom agentic framework for multi-tool orchestration across mutual fund recommendations, KYC, transactions, and SEBI-compliant workflows. Inference layer handling 1M+ messages/day at sub-2s P99 latency.</div>
         <div class="exp-chips">
           <span class="chip">Founding Team</span><span class="chip">Custom Agents</span><span class="chip">RAG</span><span class="chip">Fintech</span><span class="chip">Team Lead</span>
         </div>
@@ -501,15 +498,30 @@ footer a{color:var(--teal-mid);text-decoration:none}
 
     <div class="exp-row">
       <div class="exp-meta">
+        <div class="exp-period">Aug – Oct 2023</div>
+        <div class="exp-co">Fitterfly</div>
+        <div class="exp-loc">Mumbai, India</div>
+      </div>
+      <div class="exp-detail">
+        <div class="exp-role">AI Scientist</div>
+        <div class="exp-desc">Developed two auto-regressive LightGBM models predicting 2-hour post-meal blood glucose curves from 1M+ CGM datapoints, in collaboration with doctors and nutritionists. Population-level model at RMSE 32, personalised model at RMSE 28. Deployed on AWS SageMaker.</div>
+        <div class="exp-chips">
+          <span class="chip">Healthcare AI</span><span class="chip">LightGBM</span><span class="chip">CGM</span><span class="chip">AWS SageMaker</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-row">
+      <div class="exp-meta">
         <div class="exp-period">Jul 2022 – Aug 2023</div>
-        <div class="exp-co">Innoplexus Consulting</div>
+        <div class="exp-co">Partex AI (formerly Innoplexus)</div>
         <div class="exp-loc">Pune, India</div>
       </div>
       <div class="exp-detail">
         <div class="exp-role">Junior Data Scientist</div>
-        <div class="exp-desc">Biomedical NMT system (47.8 BLEU vs 29 for Google Translate) on 42M+ records. Knowledge graph linking 300K diseases, 2M chemicals, 9M genes. BioBERT/SciBERT NER at F1 91%. Best Employee Award FY 2022–23.</div>
+        <div class="exp-desc">Implemented Transformer Big MNMT from scratch for biomedical translation (47.8 BLEU vs 29 for Google Translate) on 42M+ records. Built a multilingual drug regulatory PDF intelligence pipeline feeding Partex's Ontosight™ knowledge graph. 3-way hybrid NER system at F1 91%. Best Employee Award FY 2022–23.</div>
         <div class="exp-chips">
-          <span class="chip">Biomedical NLP</span><span class="chip">NMT</span><span class="chip">Knowledge Graphs</span><span class="chip">🏆 Best Employee</span>
+          <span class="chip">Biomedical NLP</span><span class="chip">NMT</span><span class="chip">Knowledge Graphs</span><span class="chip">Ontosight™</span><span class="chip">🏆 Best Employee</span>
         </div>
       </div>
     </div>
@@ -528,7 +540,7 @@ footer a{color:var(--teal-mid);text-decoration:none}
     <div class="contact-grid">
       <div class="contact-left">
         <div class="contact-big">Open to contracts<br>& <em>freelance</em> work</div>
-        <p class="contact-body">Whether you need an AI pipeline built from scratch, an LLM integration, a clinical data platform, or a multi-agent system — I deliver production-grade results.</p>
+        <p class="contact-body">Whether you need an AI pipeline built from scratch, an LLM integration, a clinical data platform, or a multi-agent system, I deliver production-grade results.</p>
         <div class="contact-items">
           <a href="mailto:rajeevkmehta23@gmail.com" class="contact-item">
             <div class="contact-item-icon">✉</div>
@@ -555,11 +567,6 @@ footer a{color:var(--teal-mid);text-decoration:none}
             Available now
           </div>
           <div class="avail-desc">Open to full-time contracts, project-based freelance, and consulting engagements. Timezone: IST (GMT+5:30). Typically respond within a few hours.</div>
-        </div>
-        <div class="info-card">
-          <div class="info-card-label">Starting rate</div>
-          <div class="info-card-val">₹4,000<em>/hr</em></div>
-          <div class="info-card-sub">$50/hr for international clients · Project rates available</div>
         </div>
         <div class="info-card">
           <div class="info-card-label">Education</div>
